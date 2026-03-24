@@ -33,13 +33,13 @@ export const Footer = () => {
 
                     {/* Social Icons */}
                     <div className="flex justify-center gap-6 mb-6">
-                        <a href="https://github.com/Rohitop12" target="_blank" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
+                        <a href="https://github.com/anmolchadgal01" target="_blank" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
                             <Github className="w-5 h-5 text-white" />
                         </a>
-                        <a href="https://www.linkedin.com/in/rohit-kumar-web/" target="_blank" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
+                        <a href="https://www.linkedin.com/in/anmolchadgal12/" target="_blank" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
                             <Linkedin className="w-5 h-5 text-white" />
                         </a>
-                        <a href="mailto:rohit1938sb@gmail.com" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
+                        <a href="mailto:anmolchadgal11@gmail.com" className="p-3 rounded-full bg-white/5 hover:bg-white/10 transition">
                             <Mail className="w-5 h-5 text-white" />
                         </a>
                     </div>

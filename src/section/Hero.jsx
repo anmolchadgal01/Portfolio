@@ -3,25 +3,25 @@ import { ArrowRight, Download ,Github,Linkedin,Instagram, ChevronDown} from "luc
 import { Animateborderbtn } from "@/components/Animateborderbtn";
 
 const skills=[
-    "React",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "C++",
-    "Figma",
-    "Tailwind css",
-    "Vercel",
-    "GIT",
-    "Github actions",
-    "Postman",
-
+    "Python",
+    "SQL",
+    "C/C++",
+    "HTML & CSS",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Scikit-Learn",
+    "Streamlit",
+    "Tkinter",
+    "Git",
+    "MySQL",
 ];
 
 export const Hero=()=>{
     return <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Bg */}
         <div className="absolute inset-0">
-            <img src="/hero-bg.avif" 
+            <img src="/bg.png" 
             alt="Hero image"
             className="w-full h-full object-cover opacity-40" />
             <div className="absolute inset-0 bg-gradient-to-b from-background/20  via-background/80 to-background"></div>
@@ -49,7 +49,7 @@ export const Hero=()=>{
         <div className="space-y-8">
             <div className="animate-fade-in">
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm text-primary">
-                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>Full-Stack Developer - React Specialist
+                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse"/>Data Science Enthusiast
                 </span>
                
             </div>
@@ -63,14 +63,12 @@ export const Hero=()=>{
                     <span className="font-serif italic font-normal text-white">precision</span>
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-400 ease-in-out">
-                    Hi , I'm Rohit - a Full-Stack Developer specializing in 
-                    React.js, Next.js, Node.js, and MongoDB. I build scable,performant web
-                    applications that user find it Helpful.
+                Hi, I'm Anmol Chadgal — a Python and Data Science enthusiast dedicated to building scalable, data-driven solutions. I leverage Machine Learning to transform real-world problems into actionable insights.
                 </p>
             </div>
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-500 ease-in-out">
               <a href="#contact">  <Button size="lg">Contact Me <ArrowRight /></Button></a>
-                <a href="/Rohit CV.pdf" download>
+                <a href="/AnmolChadgalCV_.pdf" download>
                     <Animateborderbtn>
                       <Download className="h-5 w-5"/>
                         Download CV
@@ -81,8 +79,8 @@ export const Hero=()=>{
             <div className="flex items-center gap-4 animate-fade-in animation-delay-600">
                 <span className="text-sm text-muted-foreground">Follow me:</span>
            {[
-  { icon: Github, href: "https://github.com/Rohitop12" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/rohit-kumar-web/" },
+  { icon: Github, href: "https://github.com/anmolchadgal01" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/anmolchadgal12/" },
  
 ].map((social, idx) => {
   return (
@@ -106,7 +104,7 @@ export const Hero=()=>{
             <div className="relative max-w-md mx-auto">
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to bg-primary/10 blur-2xl animate-pulse"/>
                 <div className="relative glass rounded-3xl p-2 glow-border">
-                    <img src="/profile up.png" alt="profile picture" className="w-full aspect-[4/5] object-cover rounded-2xl" />
+                    <img src="/Profile1.png" alt="profile picture" className="w-full aspect-[4/5] object-cover rounded-2xl" />
                     {/*floating badge */}
                     <div className="absolute -bottom-4 -right-4 glass rounded-2xl px-4 py-3 animate-float">
                         <div className="flex items-center gap-3">

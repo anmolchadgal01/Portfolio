@@ -3,27 +3,27 @@ import { Animateborderbtn } from "@/components/Animateborderbtn";
 
 const projects =[
     {
-        title: "ArtisanHub",
-        describtion: "ArtisanHub is a full-stack handcrafted marketplace platform that connects local artisans with buyers through a modern and user-friendly web interface. The platform allows dealers to register, manage, and showcase their handcrafted products, while buyers can browse, filter, and purchase items seamlessly.",
-        image: "/Artisanhub.png",
-        tags: ["React","Node.js","MongoDB","Tailwind css"],
-        github:"https://github.com/Rohitop12/ArtsianHUB",
+        title: "Telco Churn Prediction app",
+        describtion: "A machine learning web application using a real-world dataset to predict telecom customer churn using Logistic Regression, Random Forest, and Decision Tree models. Achieved 80% accuracy and deployed insights through an interactive interface.",
+        image: "/Telco.png",
+        tags: ["Python","Pandas","Scikit-Learn","Matplotlib"],
+        github:"https://best-churn-model-ja4armzfzlhlbsw4zhbspr.streamlit.app",
     },
 
     {
-        title: "Smart Pocket",
-        describtion: "Smart Pocket is a full-stack personal finance management application designed to help users efficiently track and manage their daily expenses and budgets. The platform allows users to categorize transactions, monitor spending patterns, and generate automated financial reports for better decision-making. It includes features like expense categorization, real-time balance tracking, and data visualization to provide clear insights into user finances.",
-        image: "/smartpocket.png",
-        tags: ["React","Node.js","MongoDB","RestAPI"],
-        github:"https://github.com/Rohitop12/Smart-Pocket",
+        title: "Real-Time Monitoring Dashboard",
+        describtion: "A lightweight desktop dashboard to monitor system performance and running processes in real time. Features live CPU usage visualization, process search/filtering, and process management through a Tkinter-based GUI.",
+        image: "/Task.png",
+        tags: ["Python","Tkinter","Psutil","Matplotlib","GPUtil"],
+        github:"https://github.com/anmolchadgal01",
     },
 
       {
-        title: "Clothify",
-        describtion: "Clothing Management System is a full-stack web application designed to streamline the organization and management of clothing inventory for businesses or individuals. The platform allows users to add, update, and track clothing items with details such as category, size, quantity, and pricing. It provides features like inventory monitoring, stock updates, and search/filter functionality to efficiently manage large collections. The system helps reduce manual effort, minimizes errors in inventory handling, and improves overall operational efficiency.",
-        image: "/cloth.png",
-        tags: ["HTML","Php","Tailwind css"],
-        github:"https://github.com/Rohitop12/cloth-Managment",
+        title: "AI Music Assistant",
+        describtion: "An AI-powered music recommendation assistant with an interactive Streamlit interface. Integrates the Spotify API for real-time music data retrieval, offering intelligent search and recommendation features for tracks, artists, and playlists.",
+        image: "/Aimusic.png",
+        tags: ["Python","Streamlit","Spotify API","Spotipy"],
+        github:"https://github.com/anmolchadgal01",
     }
 
 ]
@@ -115,7 +115,7 @@ export const Projects=()=>{
     })}
 </div>
 <div className="text-center mt-12 animate-fade-in animation-delay-500">
-   <a href="https://github.com/Rohitop12" target="_blank">
+   <a href="https://github.com/anmolchadgal01" target="_blank">
      <Animateborderbtn>
     View All Projects
     <ArrowUpRight className="w-5 h-5"/>

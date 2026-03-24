@@ -6,19 +6,19 @@ const Contactinfo=[
     {
         icon:Mail,
         label:"Email",
-        value:"rk0309261@gmail.com",
-        href:"mailto: rk0309261@gmail.com",
+        value:"anmolchadgal11@gmail.com",
+        href:"mailto:anmolchadgal11@gmail.com",
     },
     {
         icon:Phone,
         label:"Phone",
-        value:"+91 9352165299",
-        href:"tel:35423513",
+        value:"+91 6006601209",
+        href:"tel:+916006601209",
     },
     {
         icon:MapPin,
         label:"Location",
-        value:"Jhanldhar,Punjab",
+        value:"Jammu / Punjab, India",
         href:"#",
     }
 ]
@@ -60,10 +60,10 @@ export const Contact=()=>{
             });
             setformdata({name:"",email:"",message:""});
         } catch(err){
-            console.error("Emailjs error:",error);
+            console.error("Emailjs error:",err);
             setsubmitstatus({
                 type:"error",
-                message:error.text || "Failed to send message.PLease try again later."
+                message:err.text || "Failed to send message.PLease try again later."
             })
         } finally{
             setisloading(false);

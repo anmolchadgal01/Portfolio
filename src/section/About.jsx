@@ -37,17 +37,17 @@ export const About=()=>{
                 </h2>
                 <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                     <p>
-                        I am a passionate Full Stack Developer with a strong focus on building scalable, high-performance web applications. I specialize in both frontend and backend development, creating seamless user experiences backed by efficient server-side logic.
+                        I am a passionate Data Science Enthusiast with a strong focus on building data-driven solutions and intelligent applications. I specialize in Python-based development, creating models and tools that help in analyzing data and solving complex problems.
                     </p>
                     <p>
-                        With hands-on experience in modern technologies, I enjoy transforming ideas into real-world digital solutions that are fast, responsive, and user-friendly. I continuously strive to improve my skills and stay updated with the latest trends in web development.
+                        With hands-on experience in predictive modeling and system monitoring, I enjoy transforming data into real-world insights that are accurate and effective. I continuously strive to improve my machine learning skills and apply them in innovative ways.
                     </p>
                     <p>
-                        My core expertise includes React.js, JavaScript, Tailwind CSS, Node.js, Express.js, and Laravel, along with database management using MySQL and MongoDB. I focus on writing clean, maintainable code and continuously improving my skills to stay aligned with modern development practices.
+                        My core expertise includes Python, SQL, Pandas, Scikit-Learn, and Streamlit, along with foundational knowledge in C/C++. I focus on writing robust code and continuously adapting to modern AI and data science practices.
                     </p>
                 </div>
                 <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300  animate-pulse">
-                    <p className="text-lg font-medium italic text-foreground">"My mission is to build scalable, efficient, and user-centric web applications that solve real-world problems. I aim to deliver high-quality digital experiences by combining clean code, modern technologies, and continuous learning."</p>
+                    <p className="text-lg font-medium italic text-foreground">"My mission is to build intelligent, efficient, and user-centric applications that solve real-world problems. I aim to deliver high-quality data science solutions by combining analytical thinking, modern technologies, and continuous learning."</p>
                 </div>
                     </div>
                     {/* Highlights */}

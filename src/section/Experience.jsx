@@ -1,28 +1,25 @@
 const experience=[
     {
         period:"2023-Present",
-        Percentage:"7.36",
         Name:"Lovely Professional University",
-        degree:"Bachelor of Technology-Computer Science and Engineering",
-        place:"Punjab India"
+        degree:"Bachelor of Technology - Computer Science and Engineering",
+        place:"Punjab, India"
 
 
     },
      {
-        period:"2020-2022",
-        Percentage:"95.8",
-        Name:"PCP School",
-        degree:"Higher Secondary",
-        place:"Jhunjhunu,Rajasthan"
+        period:"2022-2023",
+        Name:"SP Smart School",
+        degree:"Intermediate",
+        place:"Sarore, Jammu"
 
 
     },
      {
-        period:"2015-2020",
-        Percentage:"83.4",
-        Name:"Nawal Public School",
-        degree:"Secondary School ",
-        place:"Jhunjhunu,Rajasthan"
+        period:"2020-2021",
+        Name:"Fatima Convent High School",
+        degree:"Matriculation",
+        place:"Bishnah, Jammu"
 
 
     },
@@ -135,10 +132,6 @@ return <section id="experience" className="py-25 relative overflow-hidden">
 
                                     <p className="text-muted-foreground">
                                         {exp.Name}
-                                    </p>
-
-                                    <p className="text-sm mt-2">
-                                        CGPA / Percentage: {exp.Percentage}
                                     </p>
 
                                     <p className="text-sm text-muted-foreground">

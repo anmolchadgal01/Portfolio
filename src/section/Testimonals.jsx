@@ -3,31 +3,31 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 const certificates=[
     {
-        img:"/cloud computing.png",
+        img:"/Cloud.png",
         Name:"Cloud Computing",
         provider:"NPTEL",
-        Link:"https://drive.google.com/file/d/1pTMJnD1GwAg9fHRDLKhLXYhw8EVh1MUa/view",
+        Link:"https://drive.google.com/file/d/1padXrwgDj09RUAVQpULSQIcl8ObkieoK/view?usp=sharing",
 
     },
     {
-        img:"/built ai.png",
+        img:"/builtai.png",
         Name:"Built Generative AI Apps and Solutions with No-Code Tools",
         provider:"INFOSYS",
-        Link:"https://drive.google.com/file/d/1mIQ5PwKCTqteqOqWTEvP434KyyDzSWi0/view",
+        Link:"https://drive.google.com/file/d/1UdUDsBwpuhUdvlFIJXWlvqRV_BHYTMEc/view?usp=sharing",
 
     },
      {
-        img:"/comb theroy.png",
+        img:"/Compt.jpeg",
         Name:"Computational Theory: Language Principle & Finite Automation theory",
         provider:"INFOSYS",
-        Link:"https://drive.google.com/file/d/1FvmMEPXMCTsxQGqQydX40m3RBsyTppPn/view",
+        Link:"https://drive.google.com/file/d/11OjffF7j6RGHFqougPbdX4avcFO4eoTt/view?usp=sharing",
 
     },
      {
-        img:"/freecodecamp.png",
-        Name:"Responsive web designing ",
-        provider:"freeCodeCamp",
-        Link:"https://drive.google.com/file/d/1Isr4QuXTewhRCAngBYOLR49AthrKwE_h/view",
+        img:"/CHATGPT.png",
+        Name:"ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM",
+        provider:"INFOSYS",
+        Link:"https://drive.google.com/file/d/1WyzW-Z7YVlxYJlZvYXdOFGQL0ov53Pz6/view?usp=sharing",
 
     }
 ]
